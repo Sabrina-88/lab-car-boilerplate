@@ -1,1 +1,17 @@
-/* Los estilos de tu proyecto */
+
+body{
+  max-height: 100vh;
+}
+.boximage{
+	height:800px;
+	width:100%;
+	background-image:url(../assets/images/taxi.jpg);
+	background-size:cover;
+	background-position:bottom;
+	}
+
+.orangeBox{
+	position:absolute;
+	top: 200px;
+	right:14px;
+	font-size:16px;}
