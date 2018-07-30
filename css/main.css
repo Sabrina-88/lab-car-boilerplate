@@ -1,17 +1,73 @@
-
-body{
-  max-height: 100vh;
+body {
+	max-height: 100vh;
+	font-family: 'Raleway', sans-serif;
 }
-.boximage{
-	height:800px;
-	width:100%;
-	background-image:url(../assets/images/taxi.jpg);
-	background-size:cover;
-	background-position:bottom;
+header {
+	line-height: 60px;
+	
+}
+li{
+	text-decoration:none;
 	}
-
-.orangeBox{
-	position:absolute;
+	
+	 nav a{
+		text-decoration:none;
+		color:#fff;}
+	
+.boximage {
+	height: 836px;
+	width: 100%;
+	 background-position-y:91%;
+	background-image: url(../assets/images/taxi.jpg);
+	background-size: cover;
+}
+/*.orangeBox {
+	position: absolute;
 	top: 200px;
-	right:14px;
-	font-size:16px;}
+	right: 14px;
+	font-size: 16px;
+	display: flex;
+	flex-direction: column;
+}*/
+.logo {
+	width: 20%;
+}
+hr {
+	background-color: #fff;
+	width: 100px;
+	height: 1px;
+}
+span {
+	font-size: 20px;
+}
+
+.imgCell{
+	height: 400px;
+	width: 100%;
+	background-image:url(../assets/images/iPhone6Plus.png);
+	background-size:contain;
+	background-repeat:no-repeat;
+	}
+	.conduceTheme{
+	height: 450px;
+	width: 100%;
+	background-image:url(../assets/images/conduce.jpg);
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+	}
+	.conduceBox{
+		display:flex;
+	 background-color:rgba(0,0,0,0.60);
+	 }
+	 -webkit-input-placeholder { 
+  color: #fff;
+}
+
+footer{
+	background-color:#2B2B2B;
+	color:#fff;
+	}
+	
+	i{
+		margin-left:5px;}
