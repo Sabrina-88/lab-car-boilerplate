@@ -4,20 +4,17 @@ body {
 }
 header {
 	line-height: 60px;
-	
 }
-li{
-	text-decoration:none;
-	}
-	
-	 nav a{
-		
-		color:#fff;}
-	
+li {
+	text-decoration: none;
+}
+nav a {
+	color: #fff;
+}
 .boximage {
 	height: 900px;
 	width: 100%;
-	 background-position-y:91%;
+	background-position-y: 91%;
 	background-image: url(../assets/images/taxi.jpg);
 	background-size: cover;
 }
@@ -40,64 +37,79 @@ hr {
 span {
 	font-size: 20px;
 }
-
-.imgCell{
+.imgCell {
 	height: 368px;
 	width: 100%;
-	background-image:url(../assets/images/iPhone6Plus.png);
-	background-size:contain;
-	background-repeat:no-repeat;
-	}
-	.conduceTheme{
+	background-image: url(../assets/images/iPhone6Plus.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.conduceTheme {
 	height: 450px;
 	width: 100%;
-	background-image:url(../assets/images/conduce.jpg);
-	background-size:cover;
-	background-position:center;
+	background-image: url(../assets/images/conduce.jpg);
+	background-size: cover;
+	background-position: center;
 	background-position-y: 54%;
-	background-repeat:no-repeat;
-	}
-	.conduceBox{
-		display:flex;
-	 background-color:rgba(0,0,0,0.60);
-	 position-y: 54%;
-	 padding-bottom:115px;
-	 }
-	 -webkit-input-placeholder { 
-  color: #fff;
+	background-repeat: no-repeat;
+}
+.conduceBox {
+	display: flex;
+	background-color: rgba(0,0,0,0.60);
+	position-y: 54%;
+	padding-bottom: 115px;
+}
+-webkit-input-placeholder {
+	color: #fff;
+}
+footer {
+	background-color: #2B2B2B;
+	color: #fff;
+}
+footer a {
+	text-transform: none;
+	text-decoration: none;
+	color: #fff;
+}
+i {
+	margin-left: 5px;
+}
+.modal li {
+	list-style-type: none;
+}
+.modal a {
+	text-transform: none;
+}
+.btn:focus {
+	outline: thin dotted;
+	outline: 0px auto -webkit-focus-ring-color;
+	outline-offset: 0px;
+}
+a:focus {
+	outline: thin dotted;
+	outline: 0px auto -webkit-focus-ring-color;
+	outline-offset: 0px;
+}
+a:link {
+	text-decoration: none;
+}
+a:hover {
+	color: #F7B617;
 }
 
-footer{
-	background-color:#2B2B2B;
-	color:#fff;
-	}
-	
-	footer a{
-		text-transform:none;text-decoration: none;
-		color:#fff;}
-		
-	i{
-		margin-left:5px;}
-.modal li {
-	list-style-type: none;}
-	
-	.modal a{
-		text-transform:none;
-		color:}
-	
-	
-	@media only screen and (max-width: 576px) {
-    .boximage {
+@media only screen and (max-width: 576px) {
+.boximage {
 	height: 665px;
 	width: 100%;
-	 background-position-y:70%;
+	background-position-y: 70%;
 	background-image: url(../assets/images/taxi.jpg);
 	background-size: cover;
-	
 }
-
-.logo{
-	width:75px;}
-	i{
-		/*margin-left:15px;*/}
+.logo {
+	width: 75px;
+}
+i {
+	margin-left: 15px;
+	margin-bottom: 30px;
+}
 }
