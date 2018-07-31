@@ -11,24 +11,24 @@ li{
 	}
 	
 	 nav a{
-		text-decoration:none;
+		
 		color:#fff;}
 	
 .boximage {
-	height: 836px;
+	height: 900px;
 	width: 100%;
 	 background-position-y:91%;
 	background-image: url(../assets/images/taxi.jpg);
 	background-size: cover;
 }
-/*.orangeBox {
+.orangeBox {
 	position: absolute;
-	top: 200px;
-	right: 14px;
+	top: 275px;
+	right: 0px;
 	font-size: 16px;
 	display: flex;
 	flex-direction: column;
-}*/
+}
 .logo {
 	width: 20%;
 }
@@ -42,7 +42,7 @@ span {
 }
 
 .imgCell{
-	height: 400px;
+	height: 368px;
 	width: 100%;
 	background-image:url(../assets/images/iPhone6Plus.png);
 	background-size:contain;
@@ -54,11 +54,14 @@ span {
 	background-image:url(../assets/images/conduce.jpg);
 	background-size:cover;
 	background-position:center;
+	background-position-y: 54%;
 	background-repeat:no-repeat;
 	}
 	.conduceBox{
 		display:flex;
 	 background-color:rgba(0,0,0,0.60);
+	 position-y: 54%;
+	 padding-bottom:115px;
 	 }
 	 -webkit-input-placeholder { 
   color: #fff;
@@ -69,5 +72,32 @@ footer{
 	color:#fff;
 	}
 	
+	footer a{
+		text-transform:none;text-decoration: none;
+		color:#fff;}
+		
 	i{
 		margin-left:5px;}
+.modal li {
+	list-style-type: none;}
+	
+	.modal a{
+		text-transform:none;
+		color:}
+	
+	
+	@media only screen and (max-width: 576px) {
+    .boximage {
+	height: 665px;
+	width: 100%;
+	 background-position-y:70%;
+	background-image: url(../assets/images/taxi.jpg);
+	background-size: cover;
+	
+}
+
+.logo{
+	width:75px;}
+	i{
+		/*margin-left:15px;*/}
+}
